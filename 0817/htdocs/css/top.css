@@ -1,0 +1,184 @@
+#mainvisual {
+  background: #e2e0dd; }
+  @media screen and (max-width: 767px) {
+    #mainvisual {
+      padding-top: 78px; } }
+  #mainvisual #slider {
+    margin: 0 auto;
+    position: relative; }
+    #mainvisual #slider li {
+      position: relative; }
+      @media screen and (max-width: 767px) {
+        #mainvisual #slider li img {
+          width: 100%; } }
+    #mainvisual #slider .slide-img {
+      width: 100%; }
+    #mainvisual #slider .slide-img-txt-01 {
+      position: absolute;
+      top: 63%;
+      right: 23%;
+      width: 30%;
+      max-width: 423px; }
+      @media screen and (max-width: 767px) {
+        #mainvisual #slider .slide-img-txt-01 {
+          max-width: 100%;
+          width: 93.75%;
+          top: inherit;
+          bottom: 20px;
+          left: 0;
+          right: 0;
+          margin: auto; } }
+
+#content {
+  max-width: 1000px;
+  margin: 110px auto 0; }
+  @media screen and (max-width: 767px) {
+    #content {
+      margin-top: 70px; } }
+
+#main {
+  float: right;
+  width: 73%;
+  max-width: 730px; }
+  @media screen and (max-width: 767px) {
+    #main {
+      float: none;
+      width: 100%; } }
+  #main .s-container {
+    margin-top: 70px; }
+    @media screen and (max-width: 767px) {
+      #main .s-container {
+        margin-top: 40px; } }
+  #main .main-head {
+    text-align: center;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #5d4267;
+    font-size: 10px;
+    color: #442550; }
+    @media screen and (max-width: 767px) {
+      #main .main-head {
+        padding-bottom: 5px; } }
+    #main .main-head img {
+      margin-bottom: 7px; }
+      @media screen and (max-width: 767px) {
+        #main .main-head img {
+          margin-bottom: 5px; } }
+  @media screen and (max-width: 767px) {
+    #main .item-img-box-01 {
+      padding: 0 10px; } }
+  #main .item-img-box-01 li {
+    float: left;
+    margin-top: 20px;
+    width: 31.506849%;
+    margin-right: 2.739756%;
+    position: relative; }
+    @media screen and (max-width: 767px) {
+      #main .item-img-box-01 li {
+        margin-right: 0;
+        width: 48.5%; } }
+    #main .item-img-box-01 li:nth-child(3n) {
+      margin-right: 0; }
+    @media screen and (max-width: 767px) {
+      #main .item-img-box-01 li:nth-child(2n) {
+        float: right; } }
+    #main .item-img-box-01 li p {
+      text-align: center;
+      font-size: 14px;
+      color: #333;
+      margin-top: 5px;
+      line-height: 1.4; }
+    #main .item-img-box-01 li img {
+      width: 100%; }
+      @media screen and (min-width: 768px) {
+        #main .item-img-box-01 li img:hover {
+          opacity: 0.8; } }
+  #main .item-img-box-01 .rank-icon-01 {
+    position: absolute;
+    width: 29px;
+    height: 23px;
+    top: 7px;
+    left: 7px; }
+  #main .item-img-box-01 .rank-icon-02 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 7px;
+    left: 10px; }
+  #main .more-btn-01 {
+    max-width: 582px;
+    text-align: center;
+    border: 1px solid #5d4267;
+    margin: 40px auto 0;
+    position: relative; }
+    @media screen and (max-width: 767px) {
+      #main .more-btn-01 {
+        width: 90.625%;
+        font-size: 0.875rem; } }
+    #main .more-btn-01 a {
+      color: #442550;
+      display: block;
+      padding: 15px 0;
+      background-color: #fff;
+      -moz-transition: background-color 0.3s linear 0s,color 0.3s linear 0s, background-image 0.3s linear 0s;
+      -webkit-transition: background-color 0.3s linear 0s,color 0.3s linear 0s, background-image 0.3s linear 0s;
+      -ms-transition: background-color 0.3s linear 0s,color 0.3s linear 0s, background-image 0.3s linear 0s;
+      transition: background-color 0.3s linear 0s,color 0.3s linear 0s, background-image 0.3s linear 0s; }
+      #main .more-btn-01 a:after {
+        content: "";
+        display: block;
+        background: url(/img/top_arrow_icon_01.png) no-repeat left center;
+        position: absolute;
+        right: 20px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 9px;
+        height: 14px; }
+      @media screen and (min-width: 768px) {
+        #main .more-btn-01 a:hover {
+          background-color: #442550;
+          color: #fff; }
+          #main .more-btn-01 a:hover:after {
+            background: url(/img/top_arrow_icon_02.png) no-repeat left center; } }
+      @media screen and (max-width: 767px) {
+        #main .more-btn-01 a {
+          padding: 10px 0; } }
+  @media screen and (max-width: 767px) {
+    #main .info-area {
+      padding: 0 10px; } }
+  #main .info-area dl {
+    border-bottom: 1px dotted #442550;
+    padding: 20px 0 15px;
+    font-size: 14px;
+    color: #333; }
+    @media screen and (max-width: 767px) {
+      #main .info-area dl {
+        padding: 10px 0;
+        font-size: 0.625rem;
+        display: table;
+        width: 100%; } }
+    #main .info-area dl:first-of-type {
+      padding-top: 35px; }
+      @media screen and (max-width: 767px) {
+        #main .info-area dl:first-of-type {
+          padding-top: 20px; } }
+  #main .info-area dt {
+    float: left;
+    padding-right: 30px;
+    max-width: 150px; }
+    @media screen and (max-width: 767px) {
+      #main .info-area dt {
+        display: table-cell;
+        float: none;
+        width: 30%;
+        max-width: 100%; } }
+  #main .info-area dd {
+    float: left;
+    max-width: 580px; }
+    @media screen and (max-width: 767px) {
+      #main .info-area dd {
+        display: table-cell;
+        float: none;
+        width: 70%;
+        max-width: 100%;
+        line-height: 1.2; } }
